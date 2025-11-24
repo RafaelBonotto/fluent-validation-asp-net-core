@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|c:\\users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\fluentvalidationsolution\\banking.api\\dto\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|solutionrelative:banking.api\\dto\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|c:\\users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\fluentvalidationsolution\\banking.api\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|solutionrelative:banking.api\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Requests.cs",
+              "DocumentMoniker": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\DTO\\Requests.cs",
+              "RelativeDocumentMoniker": "Banking.API\\DTO\\Requests.cs",
+              "ToolTip": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\DTO\\Requests.cs",
+              "RelativeToolTip": "Banking.API\\DTO\\Requests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:45:22.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Conta.cs",
               "DocumentMoniker": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Models\\Conta.cs",
               "RelativeDocumentMoniker": "Banking.API\\Models\\Conta.cs",
