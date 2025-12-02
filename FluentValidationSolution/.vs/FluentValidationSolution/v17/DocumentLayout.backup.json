@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|c:\\users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\fluentvalidationsolution\\banking.api\\services\\icontaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|solutionrelative:banking.api\\services\\icontaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|c:\\users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\fluentvalidationsolution\\banking.api\\dto\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|solutionrelative:banking.api\\dto\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|c:\\users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\fluentvalidationsolution\\banking.api\\validators\\transferenciavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|solutionrelative:banking.api\\validators\\transferenciavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|c:\\users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\fluentvalidationsolution\\banking.api\\validators\\saquevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|solutionrelative:banking.api\\validators\\saquevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|c:\\users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\fluentvalidationsolution\\banking.api\\validators\\depositovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|solutionrelative:banking.api\\validators\\depositovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|c:\\users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\fluentvalidationsolution\\banking.api\\validators\\criarcontavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|solutionrelative:banking.api\\validators\\criarcontavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0285D006-D929-4057-A97A-13C033381987}|Banking.API\\Banking.API.csproj|c:\\users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\fluentvalidationsolution\\banking.api\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,19 +51,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IContaService.cs",
+              "DocumentMoniker": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Services\\IContaService.cs",
+              "RelativeDocumentMoniker": "Banking.API\\Services\\IContaService.cs",
+              "ToolTip": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Services\\IContaService.cs",
+              "RelativeToolTip": "Banking.API\\Services\\IContaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T01:18:28.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransferenciaValidator.cs",
+              "DocumentMoniker": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Validators\\TransferenciaValidator.cs",
+              "RelativeDocumentMoniker": "Banking.API\\Validators\\TransferenciaValidator.cs",
+              "ToolTip": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Validators\\TransferenciaValidator.cs",
+              "RelativeToolTip": "Banking.API\\Validators\\TransferenciaValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:31:03.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaqueValidator.cs",
+              "DocumentMoniker": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Validators\\SaqueValidator.cs",
+              "RelativeDocumentMoniker": "Banking.API\\Validators\\SaqueValidator.cs",
+              "ToolTip": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Validators\\SaqueValidator.cs",
+              "RelativeToolTip": "Banking.API\\Validators\\SaqueValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:29:59.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepositoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Validators\\DepositoValidator.cs",
+              "RelativeDocumentMoniker": "Banking.API\\Validators\\DepositoValidator.cs",
+              "ToolTip": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Validators\\DepositoValidator.cs",
+              "RelativeToolTip": "Banking.API\\Validators\\DepositoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:23:54.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CriarContaValidator.cs",
+              "DocumentMoniker": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Validators\\CriarContaValidator.cs",
+              "RelativeDocumentMoniker": "Banking.API\\Validators\\CriarContaValidator.cs",
+              "ToolTip": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Validators\\CriarContaValidator.cs",
+              "RelativeToolTip": "Banking.API\\Validators\\CriarContaValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:15:57.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Requests.cs",
               "DocumentMoniker": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\DTO\\Requests.cs",
               "RelativeDocumentMoniker": "Banking.API\\DTO\\Requests.cs",
               "ToolTip": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\DTO\\Requests.cs",
               "RelativeToolTip": "Banking.API\\DTO\\Requests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T23:45:22.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Conta.cs",
               "DocumentMoniker": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Models\\Conta.cs",
               "RelativeDocumentMoniker": "Banking.API\\Models\\Conta.cs",
@@ -51,8 +134,7 @@
               "RelativeToolTip": "Banking.API\\Models\\Conta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T23:38:15.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T23:38:15.816Z"
             }
           ]
         }
