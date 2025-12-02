@@ -4,7 +4,7 @@ namespace Banking.API.DTO
 {
     public class Requests
     {
-         public record CriarCOntaRequest(string NomeTitular, string CPF, TipoConta Tipo);
+         public record CriarContaRequest(string NomeTitular, string CPF, TipoConta Tipo);
 
         public record DepositoRequest(string NumeroConta, decimal Valor)
         {
@@ -12,12 +12,12 @@ namespace Banking.API.DTO
             public DepositoRequest() : this("", 0) { }
         }
 
-        public record SaqueReques(string NumeroConta, decimal Valor)
+        public record SaqueRequest(string NumeroConta, decimal Valor)
         {
-            public SaqueReques() : this("", 0) { }
+            public SaqueRequest() : this("", 0) { }
         }
         
-        public record TransferenciaReques(
+        public record TransferenciaRequest(
             string ContaOrigem,
             string ContaDestino,
             decimal Valor,
