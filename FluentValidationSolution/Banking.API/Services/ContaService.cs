@@ -86,7 +86,31 @@ namespace Banking.API.Services
 
         public Task TransferirAsync(Requests.TransferenciaRequest request)
         {
-            throw new NotImplementedException();
+            if (!_contas.ContainsKey(request.ContaOrigem))
+                throw new InvalidOperationException("Conta de origem não encontrada");
+            
+            if (!_contas.ContainsKey(request.ContaDestino))
+                throw new InvalidOperationException("Conta de destino não encontrada");
+
+            var contaOrigem = _contas[request.ContaOrigem];
+            var contaDestino = _contas[request.ContaDestino];
+
+            if (contaOrigem.Saldo < request.Valor)
+                throw new InvalidOperationException("Saldo insuficiente");
+
+            contaOrigem.Saldo -= request.Valor;
+            contaDestino.Saldo += request.Valor;
+
+            //Registra Transferência diária
+            var hoje = DateTime.Today.ToString("yyyy-MM-dd");
+            var chave = $"{request.ContaOrigem}_{hoje}";
+
+            _transferenciasDiarias.AddOrUpdate(
+                chave,
+                [request.Valor],
+                (key, list) => { list.Add(request.Valor); return list; });
+
+            return Task.CompletedTask;
         }
     }
 }
