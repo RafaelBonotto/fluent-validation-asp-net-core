@@ -70,7 +70,18 @@ namespace Banking.API.Services
 
         public Task<Conta> SacarAsync(Requests.SaqueRequest request)
         {
-            throw new NotImplementedException();
+            if (_contas.TryGetValue(request.NumeroConta, out var conta))
+            {
+                if (conta.Saldo >= request.Valor)
+                {
+                    conta.Saldo -= request.Valor;
+                    return Task.FromResult(conta);
+                }
+
+                throw new InvalidOperationException("Saldo insuficiente");
+            }
+
+            throw new InvalidOperationException("Conta não encontrada");
         }
 
         public Task TransferirAsync(Requests.TransferenciaRequest request)
