@@ -39,7 +39,13 @@ namespace Banking.API.Services
 
         public Task<Conta> DepositarAsync(Requests.DepositoRequest request)
         {
-            throw new NotImplementedException();
+            if(_contas.TryGetValue(request.NumeroConta, out var conta))
+            {
+                conta.Saldo += request.Valor;
+                return Task.FromResult(conta);
+            }
+
+            throw new InvalidOperationException("Conta não encontrada");
         }
 
         public Task<Conta> GetContaAsync(string numeroConta)
