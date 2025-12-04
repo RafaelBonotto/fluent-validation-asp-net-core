@@ -50,7 +50,7 @@ namespace Banking.API.Services
             return Task.FromResult(conta);
         }
 
-        public Task<bool> GetSaldCPFJaCadastradoAsync(string cpf)
+        public Task<bool> CPFJaCadastradoAsync(string cpf)
         {
            var existe = _contas.Values.Any(c => c.CPF == cpf);
            return Task.FromResult(existe);

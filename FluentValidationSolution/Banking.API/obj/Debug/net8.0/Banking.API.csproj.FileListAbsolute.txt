@@ -36,3 +36,5 @@ C:\Users\rafar\source\repos\fluent-validation-asp-net-core\FluentValidationSolut
 C:\Users\rafar\source\repos\fluent-validation-asp-net-core\FluentValidationSolution\Banking.API\obj\Debug\net8.0\Banking.API.pdb
 C:\Users\rafar\source\repos\fluent-validation-asp-net-core\FluentValidationSolution\Banking.API\obj\Debug\net8.0\Banking.API.genruntimeconfig.cache
 C:\Users\rafar\source\repos\fluent-validation-asp-net-core\FluentValidationSolution\Banking.API\obj\Debug\net8.0\ref\Banking.API.dll
+C:\Users\rafar\source\repos\fluent-validation-asp-net-core\FluentValidationSolution\Banking.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\rafar\source\repos\fluent-validation-asp-net-core\FluentValidationSolution\Banking.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

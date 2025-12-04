@@ -12,7 +12,7 @@ namespace Banking.API.Services
         Task<Conta?> GetContaAsync(string numeroConta);
         Task<bool> ContaExisteAsync(string numeroConta);    
         Task<decimal> GetSaldoAsync(string numeroConta);    
-        Task<bool> GetSaldCPFJaCadastradoAsync(string cpf);
+        Task<bool> CPFJaCadastradoAsync(string cpf);
         Task<decimal> GetTransferenciaDiariaAsync(string numeroConta);
     }
 }
