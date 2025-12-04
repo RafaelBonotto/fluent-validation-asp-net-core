@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Banking.API\\Services\\ContaService.cs",
               "ToolTip": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Services\\ContaService.cs",
               "RelativeToolTip": "Banking.API\\Services\\ContaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC0AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T01:10:55.796Z",
               "EditorCaption": ""
@@ -73,9 +73,10 @@
               "RelativeDocumentMoniker": "Banking.API\\Services\\IContaService.cs",
               "ToolTip": "C:\\Users\\rafar\\source\\repos\\fluent-validation-asp-net-core\\FluentValidationSolution\\Banking.API\\Services\\IContaService.cs",
               "RelativeToolTip": "Banking.API\\Services\\IContaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T01:18:28.847Z"
+              "WhenOpened": "2025-12-02T01:18:28.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

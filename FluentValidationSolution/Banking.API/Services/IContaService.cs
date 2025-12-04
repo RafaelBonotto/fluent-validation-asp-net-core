@@ -9,7 +9,7 @@ namespace Banking.API.Services
         Task<Conta> DepositarAsync(DepositoRequest request);
         Task<Conta> SacarAsync(SaqueRequest request);
         Task TransferirAsync(TransferenciaRequest request);
-        Task<Conta> GetContaAsync(string numeroConta);
+        Task<Conta?> GetContaAsync(string numeroConta);
         Task<bool> ContaExisteAsync(string numeroConta);    
         Task<decimal> GetSaldoAsync(string numeroConta);    
         Task<bool> GetSaldCPFJaCadastradoAsync(string cpf);

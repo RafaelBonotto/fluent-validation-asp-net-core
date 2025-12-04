@@ -11,8 +11,6 @@ namespace Banking.API.Services
         private static readonly ConcurrentDictionary<string, List<decimal>> _transferenciasDiarias = new();
         private static int _contadorConta = 1000; 
 
-
-
         public Task<bool> ContaExisteAsync(string numeroConta)
         {
             throw new NotImplementedException();
@@ -48,9 +46,10 @@ namespace Banking.API.Services
             throw new InvalidOperationException("Conta não encontrada");
         }
 
-        public Task<Conta> GetContaAsync(string numeroConta)
+        public Task<Conta?> GetContaAsync(string numeroConta)
         {
-            throw new NotImplementedException();
+            _contas.TryGetValue(numeroConta, out var conta);
+            return Task.FromResult(conta);
         }
 
         public Task<bool> GetSaldCPFJaCadastradoAsync(string cpf)
