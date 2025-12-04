@@ -9,12 +9,10 @@ namespace Banking.API.Services
         // Estrutura de dados simulando base de dados
         private static readonly ConcurrentDictionary<string, Conta> _contas = new();
         private static readonly ConcurrentDictionary<string, List<decimal>> _transferenciasDiarias = new();
-        private static int _contadorConta = 1000; 
+        private static int _contadorConta = 1000;
 
         public Task<bool> ContaExisteAsync(string numeroConta)
-        {
-            throw new NotImplementedException();
-        }
+            => Task.FromResult(_contas.ContainsKey(numeroConta));
 
         public Task<Conta> CriarContaAsync(Requests.CriarContaRequest request)
         {
@@ -54,17 +52,27 @@ namespace Banking.API.Services
 
         public Task<bool> GetSaldCPFJaCadastradoAsync(string cpf)
         {
-            throw new NotImplementedException();
+           var existe = _contas.Values.Any(c => c.CPF == cpf);
+           return Task.FromResult(existe);
         }
 
         public Task<decimal> GetSaldoAsync(string numeroConta)
         {
-            throw new NotImplementedException();
+           if (_contas.TryGetValue(numeroConta, out var conta))
+               return Task.FromResult(conta.Saldo);
+
+           return Task.FromResult(0m);
         }
 
         public Task<decimal> GetTransferenciaDiariaAsync(string numeroConta)
         {
-            throw new NotImplementedException();
+            var hoje = DateTime.Today.ToString("yyyy-MM-dd");
+            var chave = $"{numeroConta}_{hoje}";
+
+            if (_transferenciasDiarias.TryGetValue(chave, out var transferencia))
+                return Task.FromResult(transferencia.Sum());
+
+            return Task.FromResult(0m);
         }
 
         public Task<Conta> SacarAsync(Requests.SaqueRequest request)
